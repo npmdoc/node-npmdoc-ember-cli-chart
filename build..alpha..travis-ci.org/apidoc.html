@@ -51,7 +51,7 @@
 
         href="https://github.com/aomran/ember-cli-chart"
 
-    >ember-cli-chart (v3.1.0)</a>
+    >ember-cli-chart (v3.2.0)</a>
 </h1>
 <h4>Ember component for ChartJS</h4>
 <div class="apidocSectionDiv"><a
@@ -60,6 +60,15 @@
 ><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.ember-cli-chart">module ember-cli-chart</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.ember-cli-chart.included">
+            function <span class="apidocSignatureSpan">ember-cli-chart.</span>included
+            <span class="apidocSignatureSpan">(app)</span>
+            </a>
+
+        </li>
 
         <li>
 
@@ -73,6 +82,34 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.ember-cli-chart" id="apidoc.module.ember-cli-chart">module ember-cli-chart</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.ember-cli-chart.included" id="apidoc.element.ember-cli-chart.included">
+        function <span class="apidocSignatureSpan">ember-cli-chart.</span>included
+        <span class="apidocSignatureSpan">(app)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function included(app) {
+ this._super.included(app);
+ app.import(app.bowerDirectory + &#x27;/chartjs/dist/Chart.js&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/* eslint-env node */
+&#x27;use strict&#x27;;
+
+module.exports = {
+  name: &#x27;ember-cli-chart&#x27;,
+  included: function included(app) {
+   this._super.<span class="apidocCodeKeywordSpan">included</span>(app);
+   app.import(app.bowerDirectory + &#x27;/chartjs/dist/Chart.js&#x27;);
+  }
+};
+...</pre></li>
+    </ul>
+
 
 
 
