@@ -1,6 +1,6 @@
 # npmdoc-ember-cli-chart
 
-#### api documentation for  [ember-cli-chart (v3.2.0)](https://github.com/aomran/ember-cli-chart)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-cli-chart.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-cli-chart) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-cli-chart.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-cli-chart)
+#### basic api documentation for  [ember-cli-chart (v3.2.0)](https://github.com/aomran/ember-cli-chart)  [![npm package](https://img.shields.io/npm/v/npmdoc-ember-cli-chart.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-ember-cli-chart) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-ember-cli-chart.svg)](https://travis-ci.org/npmdoc/node-npmdoc-ember-cli-chart)
 
 #### Ember component for ChartJS
 
@@ -88,7 +88,8 @@
         "start": "ember server",
         "test": "ember try:each"
     },
-    "version": "3.2.0"
+    "version": "3.2.0",
+    "bin": {}
 }
 ```
 
